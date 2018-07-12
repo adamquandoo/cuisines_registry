@@ -12,7 +12,7 @@ The first iteration of this component was implemented by rather inexperienced de
 1. **[Important!]** Adhere to the boy scout rule. Leave your code better than you found it.
 It is ok to change any code as long as the CuisinesRegistry interface remains unchanged.
 2. Make is possible for customers to follow more than one cuisine (return multiple cuisines in de.quandoo.recruitment.registry.api.CuisinesRegistry#customerCuisines)
-3. Implement de.quandoo.recruitment.registry.api.CuisinesRegistry#topCuisines
+3. Implement de.quandoo.recruitment.registry.api.CuisinesRegistry#topCuisines - returning list of most popular (highest number of registered customers) ones
 4. Create a short write up on how you would plan to scale this component to be able process in-memory billions of customers and millions of cuisines (Book-That-Table is already planning for galactic scale). (100 words max)
 
 ## Submitting your solution
